@@ -1,4 +1,3 @@
-import Control.Monad.RWS (MonadState(put))
 converter :: Float -> Float
 converter t = (t * 1.8) + 32
 
